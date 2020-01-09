@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class CountingElements {
+public class CountingNegativeNumbers {
     static int countNegativeFixedArray(int[] intArray) {
         int result = 0;
         for (int i = 0; i < intArray.length; i++) {
