@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ReverseArray {
     static int[] reverseThisArray(int[] currentArray) {
         int tempNumber;
@@ -9,10 +11,11 @@ public class ReverseArray {
         return currentArray;
     }
 
+
     public static void main(String[] args) {
         int[] fixedArray = {1, 0, -2, 5, 6, -4};
-        System.out.println("fixedArray = " + fixedArray);
+        System.out.println("fixedArray = " + Arrays.toString(fixedArray));
         reverseThisArray(fixedArray);
-        System.out.println("fixedArray = " + fixedArray);
+        System.out.println("fixedArray = " + Arrays.toString(fixedArray));
     }
 }
