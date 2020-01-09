@@ -2,7 +2,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class CountingElements {
+public class CountingNumbers {
     public static  HashMap<Integer, Integer> countingItems(int[] intArray){
         HashMap<Integer, Integer> hmap = new HashMap<Integer, Integer>();
         int counter;
@@ -27,7 +27,7 @@ public class CountingElements {
         HashMap<Integer, Integer> hmap = countingItems(fixedArray);
         for (Integer key: hmap.keySet()){
             System.out.println("key = " + key);
-            System.out.println("hmap.get(key) = " + hmap.get(key));
+            System.out.println("hmap.get(" + key + ") = " + hmap.get(key));
         }
     }
 }
