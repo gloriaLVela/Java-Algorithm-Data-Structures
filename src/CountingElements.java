@@ -22,5 +22,19 @@ public class CountingElements {
             countNegativeNumber++;                            // increment i
         }
         System.out.println("countNegativeNumber = " + countNegativeNumber);
+
+        int[] fixedArrayLarge = {1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4,1, 0, -2, 5, 6, -4};
+        System.out.println("Large array" + countNegativeFixedArray(fixedArrayLarge));
+
+        Arrays.sort(fixedArrayLarge);
+        countNegativeNumber = 0;
+        while(countNegativeNumber < fixedArrayLarge.length && fixedArrayLarge[countNegativeNumber] < 0)
+        {
+            countNegativeNumber++;                            // increment i
+        }
+        System.out.println("countNegativeNumber = " + countNegativeNumber);
+
+
+
     }
 }
