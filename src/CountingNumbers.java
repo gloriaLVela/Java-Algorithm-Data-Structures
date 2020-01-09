@@ -22,7 +22,7 @@ public class CountingNumbers {
 
     public static void main(String[] args) {
         int[] fixedArray = {1,0,1,2,3,4,5,12,3,4,5,8,9,2,1,3,4,6,7,8,9};
-        System.out.println("Arrays.toString(fixedArray) = " + Arrays.toString(fixedArray));
+        System.out.println("fixedArray = " + Arrays.toString(fixedArray));
 
         HashMap<Integer, Integer> hmap = countingItems(fixedArray);
         for (Integer key: hmap.keySet()){
