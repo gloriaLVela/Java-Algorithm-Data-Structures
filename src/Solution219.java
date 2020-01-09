@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class Solution219 {
     /**
      * 219. Contains Duplicate II
      */
