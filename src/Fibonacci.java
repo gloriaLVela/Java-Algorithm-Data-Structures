@@ -18,7 +18,7 @@ public class Fibonacci {
     public static void main(String[] args) {
 
         int currentNumber;
-        currentNumber = 144;
+        currentNumber = 6;
         double[] data = new double[currentNumber + 1];
 
 //        Arrays.fill(data, new int(0));
