@@ -49,10 +49,12 @@ public class CoinChange {
     public static void main(String[] args) {
 
         int[] coins = {1, 2, 5};
-        System.out.println(calculateCoin(5, coins));
-        System.out.println(calculateCoin(9, coins));
-        System.out.println(calculateCoin(25, coins));
-        System.out.println(calculateCoin(1, coins));
+        System.out.println(Arrays.toString(coins));
+        System.out.println(5 + ", " + calculateCoin(5, coins));
+        System.out.println(9 + ", " + calculateCoin(9, coins));
+        System.out.println(25 + ", " + calculateCoin(25, coins));
+        System.out.println(1 + ", " + calculateCoin(1, coins));
+        System.out.println(13 + ", " + calculateCoin(13, coins));
 
     }
 }
